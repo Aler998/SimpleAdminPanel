@@ -18,6 +18,7 @@ This is a project based on laravel with breeze authentication and a simple boots
 - Laravel breeze authentication system
 - StartBootstrap Admin panel
 - Datatables and Chart
+- Super Admin Permission
 
 ## Installation
 
