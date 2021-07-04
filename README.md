@@ -13,36 +13,36 @@ This is a project based on laravel with authentication system based on breeze an
 
 ## Features
 
--Simple to Manage
--Laravel breeze authentication system
--StartBootstrap Admin panel
--Datatables and Chart
+- Simple to Manage
+- Laravel breeze authentication system
+- StartBootstrap Admin panel
+- Datatables and Chart
 
 ## Installation
 
--Create a project via composer
+Create a project via composer
 
 ```sh
 composer create-project aler998/laraveladminpanel
 ```
--Then install dependencies
+Then install dependencies
 ```sh
 npm install && npm run dev
 ```
 
--Set .env file
+Set .env file
 
--Run the migrations
+Run the migrations
 ```sh
 php artisan migrate
 ```
 
--Generate the key
+Generate the key
 ```sh
 php artisan key:generate
 ```
 
--Finally serve the application
+Finally serve the application
 ```sh
 php artisan serve
 ```
