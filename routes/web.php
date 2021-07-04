@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::prefix('admin')->name('admin.')->middleware('auth')->group(function () {
+Route::prefix('admin')->name('admin.')->middleware(['auth', 'superAdmin'])->group(function () {
     Route::get('/dashboard', function() {
         return view('admin.pages.dashboard');
     })->name('dashboard');

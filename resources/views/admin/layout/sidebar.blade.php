@@ -10,12 +10,14 @@
                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                 {{__('Users')}}
             </a>
+
+
             @include('admin.layout.sidebar_components.dropdown')
             @include('admin.layout.sidebar_components.double_dropdown')
         </div>
     </div>
     <div class="sb-sidenav-footer">
         <div class="small">Logged in as:</div>
-        Username
+        {{Auth::user()->name}}
     </div>
 </nav>
