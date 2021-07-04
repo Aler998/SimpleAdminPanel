@@ -1,12 +1,9 @@
 ## Laravel Simple Admin Panel
 
 <p>
-<!-- <a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="http://img.shields.io/packagist/v/tymon/jwt-auth.svg?style=flat-square&logo=composer" alt="Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a> -->
-[![Latest Version](http://img.shields.io/packagist/v/tymon/jwt-auth.svg?style=flat-square&logo=composer)](https://packagist.org/packages/aler998/laraveladminpanel)
-[![Latest Dev Version](https://img.shields.io/packagist/vpre/tymon/jwt-auth.svg?style=flat-square&logo=composer)](https://packagist.org/packages/aler998/laraveladminpanel#dev-develop)
-[![Monthly Downloads](https://img.shields.io/packagist/dm/tymon/jwt-auth.svg?style=flat-square&logo=composer)](https://packagist.org/packages/aler998/laraveladminpanel)
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
 ## About Simple Admin Panel
