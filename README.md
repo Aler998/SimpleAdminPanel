@@ -43,11 +43,20 @@ DB_USERNAME=yourDBuser
 DB_PASSWORD=yourstrongpwd
 ```
 
-Run the migrations
+Run the migrations with seed
 ```sh
-php artisan migrate
+php artisan migrate --seed
 ```
+This Will create an Admin user with this credentials
+- Email: admin@admin.com
+- Password: password
+And 50 other test users, to remove delete the following lines in database/seeder/UserSeeder.php
 
+```sh
+User::factory()
+    ->count(50)
+    ->create();
+```
 
 Finally serve the application
 ```sh
