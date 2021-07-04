@@ -1,9 +1,10 @@
 ## Laravel Simple Admin Panel
 
 <p>
-<a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<!-- <a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="http://img.shields.io/packagist/v/tymon/jwt-auth.svg?style=flat-square&logo=composer" alt="Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a> -->
+[![Issues](https://img.shields.io/github/issues/Aler998/SimpleAdminPanel?style=flat-square&logo=composer)](https://packagist.org/packages/aler998/laraveladminpanel)
 </p>
 
 ## About Simple Admin Panel
