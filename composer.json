@@ -1,5 +1,5 @@
 {
-    "name": "Aler998/SimpleAdminPanel",
+    "name": "aler-998/simple-admin-panel",
     "type": "project",
     "description": "The Laravel Framework with integrated a bootstrap base admin panel",
     "keywords": ["framework", "laravel", "admin", "bootstrap", "panel"],
