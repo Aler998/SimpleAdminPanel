@@ -50,6 +50,7 @@ php artisan migrate --seed
 This Will create an Admin user with this credentials
 - Email: admin@admin.com
 - Password: password
+
 And 50 other test users, to remove delete the following lines in database/seeder/UserSeeder.php
 
 ```sh
