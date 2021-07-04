@@ -1,22 +1,48 @@
 ## Laravel Simple Admin Panel
 
-<p align="center">
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<p>
+<a href="https://packagist.org/packages/aler998/laraveladminpanel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <!-- <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a> -->
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
 ## About Simple Admin Panel
 
-This is a project based on laravel with authentication system based on breeze and a simple admin panel based on bootstrap
+This is a project based on laravel with authentication system based on breeze and a simple bootstrap admin panel
 
-## How to use
+## Features
 
-- Clone this repository
-- Run the command
+-Simple to Manage
+-Laravel breeze authentication system
+-StartBootstrap Admin panel
+-Datatables and Chart
+
+## Installation
+
+-Create a project via composer
 
 ```sh
-composer require aler998/SimpleAdminPanel
+composer create-project aler998/laraveladminpanel
+```
+-Then install dependencies
+```sh
+npm install && npm run dev
 ```
 
+-Set .env file
+
+-Run the migrations
+```sh
+php artisan migrate
+```
+
+-Generate the key
+```sh
+php artisan key:generate
+```
+
+-Finally serve the application
+```sh
+php artisan serve
+```
 
