@@ -10,7 +10,7 @@
 
 ## About Simple Admin Panel
 
-This is a project based on laravel with authentication system based on breeze and a simple bootstrap admin panel
+This is a project based on laravel with breeze authentication and a simple bootstrap admin panel
 
 ## Features
 
