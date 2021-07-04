@@ -24,24 +24,29 @@ This is a project based on laravel with breeze authentication and a simple boots
 Create a project via composer
 
 ```sh
-composer create-project aler998/laraveladminpanel
+composer create-project aler998/laraveladminpanel myLaravelProject
 ```
+
 Then install dependencies
 ```sh
 npm install && npm run dev
 ```
 
 Set .env file
+```sh
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=yourDBname
+DB_USERNAME=yourDBuser
+DB_PASSWORD=yourstrongpwd
+```
 
 Run the migrations
 ```sh
 php artisan migrate
 ```
 
-Generate the key
-```sh
-php artisan key:generate
-```
 
 Finally serve the application
 ```sh
